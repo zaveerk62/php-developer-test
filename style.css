@@ -1,9 +1,15 @@
 /* Empty file. Add your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+body {
+  background-color: #F9EBE0;
 }
 
 .form-con {
@@ -14,6 +20,26 @@
 }
 
 form {
-  border: 1px solid blue;
+  background-color: #208AAE;
+  color: #fff;
+  width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+  label {
+    font-weight: 600;
+  }
+
+  .form-control {
+    border: black 1px solid;
+  }
+
+  .btn {
+    background-color: #0D2149;
+    color: #fff;
+    border: none;
+    outline: none;
+  }
   
 }
